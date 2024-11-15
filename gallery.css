@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.gallery-container {
+  width: 100%;
+  height: auto;
+}
+
+.gallery-cover {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.gallery-cover img {
+  width: 100%;
+  height: 100%;
+}
+
+.gallery-cover h1 {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  font-size: 60px;
+  color:orangered;
+  z-index: 1;
+}
+
+.gallery-container .head {
+  width: 40%;
+  height: 100px;
+  margin: 1% auto;
+  text-align: center;
+  padding: 1.5%;
+  font-size: 48px;
+  color: rgb(3, 3, 67);
+  font-weight: bold;
+  box-shadow:2px 4px 6px 0px gray;
+  text-shadow:0px 2px 0px gray;
+}
+
+.gallery-container .team {
+  width: 100%;
+  height:auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+}
+
+.gallery-container .team-img > div {
+  flex: 30%;
+}
+
+.gallery-container .team .team-img {
+  width: 20%;
+  height: 40%;
+  margin: 2% 2%;
+  border-radius: 10%;
+  text-align: center;
+  text-wrap: wrap;
+  box-shadow: 2px 4px 6px 0px gray;
+}
+
+.gallery-container .team .team-img .igg,
+.content {
+  width: 95%;
+  height: 65%;
+  margin: auto;
+}
+
+.gallery-container .team .team-img .igg img {
+  width: 80%;
+  height: 90%;
+  margin-top: 5%;
+  border-radius: 50%;
+}
+
+.gallery-container .team .team-img .content {
+  width: 90%;
+  height: 40%;
+  margin: auto;
+}
+
+.gallery-container .team .team-img .content h2 {
+  margin-top: 2%;
+}
+
+.gallery-container .team-details {
+  width: 100%;
+  height:auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+}
+
+i{
+  color: orangered;
+}
+
+.gallery-container .team-details > div {
+  flex:30%;
+}
+
+.gallery-container .team-details .details {
+  width: 10%;
+  height:50%;
+  margin:2% 2%;
+  border-radius: 10%;
+  text-align: center;
+  text-wrap: wrap;
+  box-shadow: 2px 4px 6px 0px gray;
+}
+
+  @media (max-width: 768px) {
+    .gallery-cover h1 {
+        visibility: hidden;
+        height:0;
+    }
+
+    .gallery-container .head {
+        font-size: 5vw;
+        align-content: center;
+    }
+
+    .gallery-container .team .team-img{
+        width:60%;
+        height:300px;
+    }
+
+    .gallery-container .team-details .details{
+      margin:2%;
+      width:100%;
+      height:150px;
+      display: block;
+      align-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-cover h1 {
+        font-size: 8vw;
+    }
+
+    .gallery-container .head {
+        font-size: 6vw;
+    }
+
+    .main-cover .txt button{
+      visibility: hidden;
+      height:0;
+    }
+
+    /* .gallery-container .team-img{
+        flex: 1 1 100%;
+        max-width: 100%;
+    } */
+}

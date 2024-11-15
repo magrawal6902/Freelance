@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="foot.css" />
+    <title>Contact</title>
+  </head>
+
+  <body>
+    <!-- nav bar -->
+    <nav>
+      <img src="logo.jpg" alt="" class="logo" />
+
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <i class="fa fa-bars"></i>
+      </button>
+
+      <ul class="nav-list" id="navList">
+        <a href="home.html"><li> Home </li> </a>
+        <li><a href="about.html"> About Us </a></li>
+        <li><a href="courses.html"> Courses</a></li>
+        <li><a href="gallery.html"> Gallery </a></li>
+        <li><a href="contact.html"> Contact Us </a></li>
+      </ul>
+    </nav>
+    <!-- nav bar end -->
+
+    <!-- body content -->
+    <div class="contact-contain">
+      <div class="contact-contain">
+        <div class="contact-cover">
+          <img src="logo.jpg" alt="" />
+          <h1>
+            Get in Touch with us <br />
+            <p>Need any assistance? We are here to help you!</p>
+          </h1>
+        </div>
+
+        <div class="box">
+          <div class="box-det">
+            <i class="fa-solid fa-envelope"></i>
+            <h1>Email</h1>
+            <p>info.smartglobalmep@gmail.com</p>
+          </div>
+          <div class="box-det">
+            <i class="fa-solid fa-phone"></i>
+            <h1>Contact No.</h1>
+            <p>+91 7800356238</p>
+          </div>
+          <div class="box-det">
+            <i class="fa-solid fa-location-dot"></i>
+            <h1>OUR ADDRESS</h1>
+            <p>Laxhmi Narayan Mandir, Naya Sahar, Deoria UP-274001</p>
+          </div>
+        </div>
+
+        <div class="contact-txt">
+          <h2>We are always ready to assist you promptly.</h2>
+          <p>Feel free to contact us or visit our Centre for assistance.</p>
+        </div>
+
+        <div class="form-container">
+          <h2>Contact Us</h2>
+          <form action="https://formspree.io/f/xvgpezjq" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="contact">Contact Number:</label>
+            <input
+              type="tel"
+              id="contact"
+              name="contact"
+              maxlength="10"
+              required
+            />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="courses">Select Courses:</label>
+
+            <div class="checkbox-group">
+              <label>
+                <input type="checkbox" name="courses" value="Course 1" />
+                REVIT</label
+              >
+              <label>
+                <input type="checkbox" name="courses" value="Course 2" />
+                AutoCAD</label
+              >
+              <label>
+                <input type="checkbox" name="courses" value="Course 3" />
+                HAPP</label
+              >
+              <label>
+                <input type="checkbox" name="courses" value="Course 4" />
+                ELITE</label
+              >
+              <label>
+                <input type="checkbox" name="courses" value="Course 5" /> HVAC
+                Design</label
+              >
+              <label>
+                <input type="checkbox" name="courses" value="Course 6" />
+                Electrical Design</label
+              >
+              <label>
+                <input type="checkbox" name="courses" value="Course 7" />
+                Plumbing Design</label
+              >
+              <label>
+                <input type="checkbox" name="courses" value="Course 8" /> Fire
+                Fighting Design</label
+              >
+              <label>
+                <input type="checkbox" name="courses" value="Course 9" /> HVAC
+                Technician</label
+              >
+              <label>
+                <input type="checkbox" name="courses" value="Course 10" />
+                Electrical Technician</label
+              >
+              <label>
+                <input type="checkbox" name="courses" value="Course 11" />
+                Plumbing Technician</label
+              >
+              <label>
+                <input type="checkbox" name="courses" value="Course 12" /> Fire
+                Fighting Technician</label
+              >
+              <label>
+                <input type="checkbox" name="courses" value="Course 13" />
+                Building Management</label
+              >
+              <label>
+                <input type="checkbox" name="courses" value="Course 14" />
+                System (BMS) Technician</label
+              >
+            </div>
+
+            <label for="file-upload">Upload File:</label>
+            <input type="file" id="file-upload" name="file" />
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- body end -->
+
+    <!-- footer  -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-txt">
+          <img src="logo.jpg" alt="" />
+          <p>
+            Smart Global offers MEP training, with practical exposure and expert
+            guidance to advance the industry.
+          </p>
+        </div>
+
+        <div class="footer-social">
+          <div class="footer-soc">
+            <h3>Follow us on</h3>
+            <a href="#"> <i class="fa-brands fa-instagram"> </i> </a>
+            <a href="#"> <i class="fa-brands fa-facebook"> </i> </a>
+            <a href="#"> <i class="fa-brands fa-youtube"> </i> </a>
+            <a href="#"> <i class="fa-brands fa-linkedin-in"> </i> </a>
+            <a href="#"> <i class="fa-brands fa-x-twitter"> </i> </a>
+          </div>
+
+          <div class="footer-links">
+            <h3>Support</h3>
+            <a href="courses.html"> Courses </a>
+            <a href="contact.html"> Contact Us </a>
+            <a href="gallery.html"> Gallery </a>
+            <a href="about.html"> About Us </a>
+          </div>
+        </div>
+
+        <div class="footer-contact">
+          <p>
+            <strong>Company Name :</strong> <br />
+            Smart Global MEP Institute
+          </p>
+          <p>
+            <strong>Location :</strong> <br />
+            Laxhmi Narayan Mandir, Naya Sahar, Deoria UP-274001
+          </p>
+          <p><strong>Contact Number :</strong> +91 7800356238</p>
+          <p>
+            <strong>Email :</strong> <br />
+            Info.smartglobalmep@gmail.com
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- nav responsive js start -->
+    <script>
+      const navToggle = document.querySelector(".nav-toggle");
+      const navList = document.getElementById("navList");
+
+      navToggle.addEventListener("click", () => {
+        navList.classList.toggle("active");
+      });
+    </script>
+    <!-- nav responsive js end -->
+  </body>
+</html>

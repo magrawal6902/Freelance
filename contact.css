@@ -1,0 +1,257 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+i{
+  color: orangered;
+}
+
+
+.contact-contain{
+    width:100%;
+    height:auto;
+    margin-top:0.5%;
+}
+
+.contact-cover{
+    width:99%;
+    height:300px;
+    background-color: #050c58;
+    display: flex;
+    color:rgb(248, 212, 5);
+    box-sizing: border-box;
+    margin:auto;
+}
+
+.contact-cover img{
+    width:15%;
+    height:50%;
+    margin:5% 5%;
+    border-radius:60%;
+}
+
+.contact-cover h1{
+    width:90%;
+    margin:8% 5%;
+}
+
+.contact-cover h1 p{
+    font-size:18px;
+    margin-top:2%;
+}
+
+.box{
+    width:100%;
+    height:250px;
+    display: flex;
+}
+
+.box .box-det{
+    width:25%;
+    height:90%;
+    box-shadow:2px 4px 6px 0px gray;
+    margin: auto auto;
+    text-align: center;
+}
+
+.box .box-det i{
+    font-size:50px;
+    margin-top:6%;
+}
+
+.box .box-det h1, p{
+    margin:3% auto;
+    width:70%;
+    height:auto;
+
+}
+
+.contact-txt{
+    width:80%;
+    height:100px;
+    margin:3% auto;
+    text-align: center;
+}
+
+.form-container {
+    width:30%;
+    height:950px;
+    margin: 5% auto;
+    background: white;
+    border-radius:15px;
+    padding:2%;
+}
+
+.form-container h2 {
+    text-align: center;
+    color: #050c58;
+    font-size:45px;
+    text-shadow:2px 2px 0px gold;
+}
+
+label {
+    display: block;
+    margin:5px auto;
+    color: #555;
+    text-align: center;
+    font-size:18px;
+    font-weight: bold;
+    color:rgb(3, 3, 93);
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="file"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.checkbox-group {
+    margin-bottom: 15px;
+}
+
+.checkbox-group label {
+    text-align: left;
+    display: block;
+    margin: 5px 0;
+    font-weight: normal;
+    color:rgb(75, 73, 73);
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+@media (max-width: 768px) {
+    .contact-cover{
+        margin: auto;
+        width:97%;
+        height:500px;
+        background-color: #050c58;
+        display: block;
+        color:rgb(248, 212, 5);
+    }
+    
+    .contact-cover img{
+        width:50%;
+        height:50%;
+        margin:5% 20%;
+        border-radius:60%;
+    }
+    
+    .contact-cover h1{
+        width:90%;
+        padding:1%;
+        text-align: center;
+        width:90%;
+        margin:8% 2%;
+    }
+    
+    .box{
+        width:97%;
+        height:800px;
+        display:block;
+    }
+    
+    .box .box-det{
+        width:80%;
+        height:30%;
+        padding:2%;
+        box-shadow:2px 4px 6px 0px gray;
+        margin:2% auto;
+        text-align: center;
+    }
+    
+    .contact-txt{
+        width:80%;
+        height:170px;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .form-container {
+        width:97%;
+        height:900px;
+        margin: 5% auto;
+        background: white;
+        border-radius:15px;
+        padding:2%;
+    }
+    
+    .form-container h2 {
+        text-align: center;
+        color: #050c58;
+        font-size:25px;
+        text-shadow:2px 2px 0px gold;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 5px;
+        color: #555;
+        text-align: center;
+        font-size:14px;
+        font-weight: bold;
+        color:rgb(3, 3, 93);
+    }
+    
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"],
+    input[type="file"] {
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    .checkbox-group {
+        margin-bottom: 15px;
+    }
+    
+    .checkbox-group label {
+        text-align: left;
+        display: block;
+        margin: 5px 0;
+        font-weight: normal;
+        color:rgb(75, 73, 73);
+    }
+    
+    button {
+        width:97%;
+        padding: 10px;
+        background-color: #5cb85c;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    button:hover {
+        background-color: #4cae4c;
+    }   
+    
+}
+
