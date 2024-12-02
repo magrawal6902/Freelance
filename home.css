@@ -73,7 +73,8 @@ i{
   /* color: inherit; */
   position: relative;
   z-index: 1;
-  color: orangered;
+  
+  color: black;
 }
 
 .main-cover .txt button::before {
@@ -96,7 +97,9 @@ i{
 .main-cover .txt button:hover,
 .main-cover .txt button:focus {
   color: white;
-  background-color:rgb(3, 3, 67);
+  background-color:rgb(255, 255, 255);
+  border: 3px solid rgb(249, 228, 110);
+  transition: all 0.5s ease;;
 }
 
 .main-cover .txt button:active::before {
