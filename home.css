@@ -387,7 +387,7 @@ i{
   }
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 600px) { 
   .main-container .head {
     width:65%;
     font-size: 36px;
